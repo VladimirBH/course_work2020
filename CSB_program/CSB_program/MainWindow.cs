@@ -134,66 +134,66 @@ namespace CSB_program
         {
             
             vhod = new auth();
-            vhod.Show();
+            vhod.ShowDialog();
             this.Dispose();
         }
 
         private void button_delivery_Click(object sender, EventArgs e)
         {
             watch_tables wt = new watch_tables("delivery", acc_cat);
-            wt.Show();
+            wt.ShowDialog();
         }
 
         private void button_provider_Click(object sender, EventArgs e)
         {
             watch_tables wt = new watch_tables("provider", acc_cat);
-            wt.Show();
+            wt.ShowDialog();
         }
 
         private void button_sotrud_Click(object sender, EventArgs e)
         {
             watch_tables wt = new watch_tables("employees", acc_cat);
-            wt.Show();
+            wt.ShowDialog();
         }
 
         private void button_position_Click(object sender, EventArgs e)
         {
             watch_tables wt = new watch_tables("positions", acc_cat);
-            wt.Show();
+            wt.ShowDialog();
         }
 
         private void button_client_Click(object sender, EventArgs e)
         {
             watch_tables wt = new watch_tables("clients", acc_cat);
-            wt.Show();
+            wt.ShowDialog();
         }
 
         private void button_buy_Click(object sender, EventArgs e)
         {
             watch_tables wt = new watch_tables("sales", acc_cat);
-            wt.Show();
+            wt.ShowDialog();
         }
 
         private void button_goods_Click(object sender, EventArgs e)
         {
             watch_tables wt = new watch_tables("goods", acc_cat);
-            wt.Show();
+            wt.ShowDialog();
         }
 
         private void button_check_Click(object sender, EventArgs e)
         {
             watch_tables wt = new watch_tables("sales_receipt", acc_cat);
-            wt.Show();
+            wt.ShowDialog();
         }
         private void buy_check_Click(object sender, EventArgs e)
         {
             buy_goods bch = new buy_goods(id_emp);
-            bch.Show();
+            bch.ShowDialog();
         }
         private void postavka_tov_Click(object sender, EventArgs e)
         {
             form_for_supply supply = new form_for_supply();
-            supply.Show();
+            supply.ShowDialog();
         }
     }
 }

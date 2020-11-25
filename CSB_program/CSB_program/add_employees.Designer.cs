@@ -49,9 +49,10 @@ namespace CSB_program
             this.comboBox_pos = new System.Windows.Forms.ComboBox();
             this.comboBox_pos_class = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.submit = new System.Windows.Forms.Button();
+            this.button_submit = new System.Windows.Forms.Button();
             this.horline = new System.Windows.Forms.PictureBox();
             this.checkBox_show = new System.Windows.Forms.CheckBox();
+            this.button_cancel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.horline)).BeginInit();
             this.SuspendLayout();
             // 
@@ -142,7 +143,7 @@ namespace CSB_program
             this.second_name.Location = new System.Drawing.Point(229, 85);
             this.second_name.Name = "second_name";
             this.second_name.Size = new System.Drawing.Size(405, 27);
-            this.second_name.TabIndex = 9;
+            this.second_name.TabIndex = 1;
             // 
             // textBox_adress
             // 
@@ -151,7 +152,7 @@ namespace CSB_program
             this.textBox_adress.Multiline = true;
             this.textBox_adress.Name = "textBox_adress";
             this.textBox_adress.Size = new System.Drawing.Size(405, 97);
-            this.textBox_adress.TabIndex = 10;
+            this.textBox_adress.TabIndex = 5;
             // 
             // tel_num
             // 
@@ -159,7 +160,7 @@ namespace CSB_program
             this.tel_num.Location = new System.Drawing.Point(229, 249);
             this.tel_num.Name = "tel_num";
             this.tel_num.Size = new System.Drawing.Size(405, 27);
-            this.tel_num.TabIndex = 11;
+            this.tel_num.TabIndex = 4;
             // 
             // name_otch
             // 
@@ -167,7 +168,7 @@ namespace CSB_program
             this.name_otch.Location = new System.Drawing.Point(229, 136);
             this.name_otch.Name = "name_otch";
             this.name_otch.Size = new System.Drawing.Size(405, 27);
-            this.name_otch.TabIndex = 12;
+            this.name_otch.TabIndex = 2;
             // 
             // textBox_login
             // 
@@ -175,7 +176,7 @@ namespace CSB_program
             this.textBox_login.Location = new System.Drawing.Point(229, 531);
             this.textBox_login.Name = "textBox_login";
             this.textBox_login.Size = new System.Drawing.Size(405, 27);
-            this.textBox_login.TabIndex = 13;
+            this.textBox_login.TabIndex = 8;
             // 
             // textBox_pass
             // 
@@ -183,14 +184,14 @@ namespace CSB_program
             this.textBox_pass.Location = new System.Drawing.Point(229, 589);
             this.textBox_pass.Name = "textBox_pass";
             this.textBox_pass.Size = new System.Drawing.Size(295, 27);
-            this.textBox_pass.TabIndex = 14;
+            this.textBox_pass.TabIndex = 9;
             // 
             // dateTimePicker_birth
             // 
             this.dateTimePicker_birth.Location = new System.Drawing.Point(229, 195);
             this.dateTimePicker_birth.Name = "dateTimePicker_birth";
             this.dateTimePicker_birth.Size = new System.Drawing.Size(405, 27);
-            this.dateTimePicker_birth.TabIndex = 15;
+            this.dateTimePicker_birth.TabIndex = 3;
             // 
             // comboBox_pos
             // 
@@ -199,7 +200,7 @@ namespace CSB_program
             this.comboBox_pos.Location = new System.Drawing.Point(229, 413);
             this.comboBox_pos.Name = "comboBox_pos";
             this.comboBox_pos.Size = new System.Drawing.Size(405, 26);
-            this.comboBox_pos.TabIndex = 16;
+            this.comboBox_pos.TabIndex = 6;
             this.comboBox_pos.SelectedIndexChanged += new System.EventHandler(this.comboBox_pos_SelectedIndexChanged);
             // 
             // comboBox_pos_class
@@ -209,7 +210,7 @@ namespace CSB_program
             this.comboBox_pos_class.Location = new System.Drawing.Point(229, 472);
             this.comboBox_pos_class.Name = "comboBox_pos_class";
             this.comboBox_pos_class.Size = new System.Drawing.Size(405, 26);
-            this.comboBox_pos_class.TabIndex = 17;
+            this.comboBox_pos_class.TabIndex = 7;
             // 
             // label10
             // 
@@ -221,21 +222,21 @@ namespace CSB_program
             this.label10.TabIndex = 18;
             this.label10.Text = "Регистрация сотрудника";
             // 
-            // submit
+            // button_submit
             // 
-            this.submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(144)))), ((int)(((byte)(0)))));
-            this.submit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(0)))), ((int)(((byte)(87)))));
-            this.submit.FlatAppearance.BorderSize = 2;
-            this.submit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(104)))), ((int)(((byte)(0)))));
-            this.submit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
-            this.submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.submit.Location = new System.Drawing.Point(495, 632);
-            this.submit.Name = "submit";
-            this.submit.Size = new System.Drawing.Size(139, 39);
-            this.submit.TabIndex = 19;
-            this.submit.Text = "Добавить";
-            this.submit.UseVisualStyleBackColor = false;
-            this.submit.Click += new System.EventHandler(this.submit_Click);
+            this.button_submit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(144)))), ((int)(((byte)(0)))));
+            this.button_submit.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(0)))), ((int)(((byte)(87)))));
+            this.button_submit.FlatAppearance.BorderSize = 2;
+            this.button_submit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(104)))), ((int)(((byte)(0)))));
+            this.button_submit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
+            this.button_submit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_submit.Location = new System.Drawing.Point(495, 632);
+            this.button_submit.Name = "button_submit";
+            this.button_submit.Size = new System.Drawing.Size(139, 39);
+            this.button_submit.TabIndex = 11;
+            this.button_submit.Text = "Добавить";
+            this.button_submit.UseVisualStyleBackColor = false;
+            this.button_submit.Click += new System.EventHandler(this.submit_Click);
             // 
             // horline
             // 
@@ -252,19 +253,36 @@ namespace CSB_program
             this.checkBox_show.Location = new System.Drawing.Point(531, 591);
             this.checkBox_show.Name = "checkBox_show";
             this.checkBox_show.Size = new System.Drawing.Size(103, 22);
-            this.checkBox_show.TabIndex = 22;
+            this.checkBox_show.TabIndex = 10;
             this.checkBox_show.Text = "Показать";
             this.checkBox_show.UseVisualStyleBackColor = true;
             this.checkBox_show.CheckedChanged += new System.EventHandler(this.checkBox_show_CheckedChanged);
+            // 
+            // button_cancel
+            // 
+            this.button_cancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(144)))), ((int)(((byte)(0)))));
+            this.button_cancel.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(0)))), ((int)(((byte)(87)))));
+            this.button_cancel.FlatAppearance.BorderSize = 2;
+            this.button_cancel.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(104)))), ((int)(((byte)(0)))));
+            this.button_cancel.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
+            this.button_cancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_cancel.Location = new System.Drawing.Point(336, 632);
+            this.button_cancel.Name = "button_cancel";
+            this.button_cancel.Size = new System.Drawing.Size(139, 39);
+            this.button_cancel.TabIndex = 12;
+            this.button_cancel.Text = "Отмена";
+            this.button_cancel.UseVisualStyleBackColor = false;
+            this.button_cancel.Click += new System.EventHandler(this.button_cancel_Click);
             // 
             // add_employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(667, 693);
+            this.Controls.Add(this.button_cancel);
             this.Controls.Add(this.checkBox_show);
             this.Controls.Add(this.horline);
-            this.Controls.Add(this.submit);
+            this.Controls.Add(this.button_submit);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.comboBox_pos_class);
             this.Controls.Add(this.comboBox_pos);
@@ -320,8 +338,9 @@ namespace CSB_program
         private System.Windows.Forms.ComboBox comboBox_pos;
         private System.Windows.Forms.ComboBox comboBox_pos_class;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button submit;
+        private System.Windows.Forms.Button button_submit;
         private System.Windows.Forms.PictureBox horline;
         private System.Windows.Forms.CheckBox checkBox_show;
+        private System.Windows.Forms.Button button_cancel;
     }
 }

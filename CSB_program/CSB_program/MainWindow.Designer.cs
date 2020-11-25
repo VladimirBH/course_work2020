@@ -49,6 +49,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buy_check = new System.Windows.Forms.Button();
             this.logo = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.horline)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
@@ -63,7 +64,7 @@
             this.button_goods.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.button_goods.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_goods.Font = new System.Drawing.Font("Verdana", 14F);
-            this.button_goods.Location = new System.Drawing.Point(715, 145);
+            this.button_goods.Location = new System.Drawing.Point(715, 159);
             this.button_goods.Name = "button_goods";
             this.button_goods.Size = new System.Drawing.Size(200, 45);
             this.button_goods.TabIndex = 13;
@@ -81,7 +82,7 @@
             this.postavka_tov.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.postavka_tov.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.postavka_tov.Font = new System.Drawing.Font("Verdana", 14F);
-            this.postavka_tov.Location = new System.Drawing.Point(276, 145);
+            this.postavka_tov.Location = new System.Drawing.Point(276, 159);
             this.postavka_tov.Name = "postavka_tov";
             this.postavka_tov.Size = new System.Drawing.Size(200, 58);
             this.postavka_tov.TabIndex = 17;
@@ -99,7 +100,7 @@
             this.button_provider.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.button_provider.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_provider.Font = new System.Drawing.Font("Verdana", 14F);
-            this.button_provider.Location = new System.Drawing.Point(495, 211);
+            this.button_provider.Location = new System.Drawing.Point(495, 225);
             this.button_provider.Name = "button_provider";
             this.button_provider.Size = new System.Drawing.Size(200, 45);
             this.button_provider.TabIndex = 17;
@@ -117,7 +118,7 @@
             this.button_delivery.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.button_delivery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_delivery.Font = new System.Drawing.Font("Verdana", 14F);
-            this.button_delivery.Location = new System.Drawing.Point(495, 145);
+            this.button_delivery.Location = new System.Drawing.Point(495, 159);
             this.button_delivery.Name = "button_delivery";
             this.button_delivery.Size = new System.Drawing.Size(200, 45);
             this.button_delivery.TabIndex = 16;
@@ -135,7 +136,7 @@
             this.button_check.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.button_check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_check.Font = new System.Drawing.Font("Verdana", 14F);
-            this.button_check.Location = new System.Drawing.Point(715, 211);
+            this.button_check.Location = new System.Drawing.Point(715, 225);
             this.button_check.Name = "button_check";
             this.button_check.Size = new System.Drawing.Size(200, 45);
             this.button_check.TabIndex = 18;
@@ -153,7 +154,7 @@
             this.button_client.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.button_client.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_client.Font = new System.Drawing.Font("Verdana", 14F);
-            this.button_client.Location = new System.Drawing.Point(715, 342);
+            this.button_client.Location = new System.Drawing.Point(715, 356);
             this.button_client.Name = "button_client";
             this.button_client.Size = new System.Drawing.Size(200, 45);
             this.button_client.TabIndex = 14;
@@ -171,7 +172,7 @@
             this.button_sotrud.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.button_sotrud.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_sotrud.Font = new System.Drawing.Font("Verdana", 14F);
-            this.button_sotrud.Location = new System.Drawing.Point(495, 278);
+            this.button_sotrud.Location = new System.Drawing.Point(495, 292);
             this.button_sotrud.Name = "button_sotrud";
             this.button_sotrud.Size = new System.Drawing.Size(200, 45);
             this.button_sotrud.TabIndex = 11;
@@ -189,7 +190,7 @@
             this.button_position.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.button_position.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_position.Font = new System.Drawing.Font("Verdana", 14F);
-            this.button_position.Location = new System.Drawing.Point(495, 342);
+            this.button_position.Location = new System.Drawing.Point(495, 356);
             this.button_position.Name = "button_position";
             this.button_position.Size = new System.Drawing.Size(200, 45);
             this.button_position.TabIndex = 12;
@@ -207,7 +208,7 @@
             this.button_buy.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.button_buy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_buy.Font = new System.Drawing.Font("Verdana", 14F);
-            this.button_buy.Location = new System.Drawing.Point(715, 278);
+            this.button_buy.Location = new System.Drawing.Point(715, 292);
             this.button_buy.Name = "button_buy";
             this.button_buy.Size = new System.Drawing.Size(200, 45);
             this.button_buy.TabIndex = 15;
@@ -219,7 +220,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 155);
+            this.label1.Location = new System.Drawing.Point(68, 199);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(156, 18);
             this.label1.TabIndex = 2;
@@ -228,7 +229,7 @@
             // lev_acc
             // 
             this.lev_acc.AutoSize = true;
-            this.lev_acc.Location = new System.Drawing.Point(223, 155);
+            this.lev_acc.Location = new System.Drawing.Point(223, 199);
             this.lev_acc.Name = "lev_acc";
             this.lev_acc.Size = new System.Drawing.Size(18, 18);
             this.lev_acc.TabIndex = 3;
@@ -237,17 +238,17 @@
             // fio
             // 
             this.fio.AutoSize = true;
-            this.fio.Font = new System.Drawing.Font("Verdana", 20F);
-            this.fio.Location = new System.Drawing.Point(78, 38);
+            this.fio.Font = new System.Drawing.Font("Verdana", 18F);
+            this.fio.Location = new System.Drawing.Point(79, 71);
             this.fio.Name = "fio";
-            this.fio.Size = new System.Drawing.Size(78, 32);
+            this.fio.Size = new System.Drawing.Size(70, 29);
             this.fio.TabIndex = 4;
             this.fio.Text = "ФИО";
             // 
             // pos
             // 
             this.pos.AutoSize = true;
-            this.pos.Location = new System.Drawing.Point(223, 117);
+            this.pos.Location = new System.Drawing.Point(223, 161);
             this.pos.Name = "pos";
             this.pos.Size = new System.Drawing.Size(18, 18);
             this.pos.TabIndex = 6;
@@ -256,7 +257,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(68, 117);
+            this.label2.Location = new System.Drawing.Point(68, 161);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 18);
             this.label2.TabIndex = 5;
@@ -282,7 +283,7 @@
             // horline
             // 
             this.horline.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(144)))), ((int)(((byte)(0)))));
-            this.horline.Location = new System.Drawing.Point(-20, 87);
+            this.horline.Location = new System.Drawing.Point(-8, 127);
             this.horline.Name = "horline";
             this.horline.Size = new System.Drawing.Size(977, 10);
             this.horline.TabIndex = 8;
@@ -306,7 +307,7 @@
             this.buy_check.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(124)))), ((int)(((byte)(0)))));
             this.buy_check.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buy_check.Font = new System.Drawing.Font("Verdana", 14F);
-            this.buy_check.Location = new System.Drawing.Point(276, 211);
+            this.buy_check.Location = new System.Drawing.Point(276, 225);
             this.buy_check.Name = "buy_check";
             this.buy_check.Size = new System.Drawing.Size(200, 58);
             this.buy_check.TabIndex = 18;
@@ -318,17 +319,28 @@
             // logo
             // 
             this.logo.InitialImage = ((System.Drawing.Image)(resources.GetObject("logo.InitialImage")));
-            this.logo.Location = new System.Drawing.Point(71, 370);
+            this.logo.Location = new System.Drawing.Point(805, 10);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(111, 109);
             this.logo.TabIndex = 19;
             this.logo.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Verdana", 24F);
+            this.label3.Location = new System.Drawing.Point(77, 19);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(454, 38);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Computer store of Burbakh";
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 510);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.logo);
             this.Controls.Add(this.button_goods);
             this.Controls.Add(this.button_check);
@@ -389,5 +401,6 @@
         private System.Windows.Forms.Button postavka_tov;
         private System.Windows.Forms.Button buy_check;
         private System.Windows.Forms.PictureBox logo;
+        private System.Windows.Forms.Label label3;
     }
 }

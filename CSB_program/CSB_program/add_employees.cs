@@ -113,21 +113,29 @@ namespace CSB_program
                     if (cmd.ExecuteNonQuery() != 0)
                     {
                         MetroMessageBox.Show(this, "Данные успешно добавлены!!  "+ result, "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        second_name.Text = "";
+                        name_otch.Text = "";
+                        dateTimePicker_birth.Value = DateTime.Now;
+                        textBox_adress.Text = "";
+                        textBox_login.Text = "";
+                        textBox_pass.Text = "";
+                        comboBox_pos.SelectedIndex = 1;
+                        comboBox_pos_class.SelectedIndex = -1;
                     }
                     else
                     {
-                        MetroMessageBox.Show(this, "Нет записей   "+ result, "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MetroMessageBox.Show(this, "Нет записей", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                     con.Close();
                 }
                 else
                 {
-                    MetroMessageBox.Show(this, "Введены не все данные"   + result, "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MetroMessageBox.Show(this, "Введены не все данные", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (System.Data.SqlClient.SqlException)
             {
-                MetroMessageBox.Show(this, "Введены не все данные    " + result, "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MetroMessageBox.Show(this, "Введены не все данные", "Ошибка!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -142,6 +150,11 @@ namespace CSB_program
             {
                 textBox_pass.UseSystemPasswordChar = true;
             }
+        }
+
+        private void button_cancel_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
         }
     }
 }

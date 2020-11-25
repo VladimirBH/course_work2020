@@ -51,7 +51,7 @@ namespace CSB_program
                 con.Close();
                 con.Dispose();
                 log = value.ToString();              
-                MetroMessageBox.Show(this, "Вход выполнен успешно! " + result, "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MetroMessageBox.Show(this, "Вход выполнен успешно!", "Успех", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Hide();
                 login.Text = "";
                 password.Text = "";
@@ -61,7 +61,7 @@ namespace CSB_program
             }
             else 
             {
-                MetroMessageBox.Show(this, "Неверный логин/пароль! " + result, "Неудача", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MetroMessageBox.Show(this, "Неверный логин/пароль!", "Неудача", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 con.Close();
                 con.Dispose();
             }
